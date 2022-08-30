@@ -1,12 +1,3 @@
-CREATE TABLE cliente(
-    id_cliente INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    nome VARCHAR(255) NOT NULL,
-    data_nasc DATE NOT NULL,
-    cpf NUMERIC(11) NOT NULL UNIQUE,
-    telefone NUMERIC(11) NOT NULL,
-    email VARCHAR(50) NOT NULL
-);
-
 INSERT INTO cliente (nome, data_nasc, cpf, telefone, email) VALUES ('Vitor', '2000-01-01', '11111111111', '44999999999', 'vitor@gmail.com');
 INSERT INTO cliente (nome, data_nasc, cpf, telefone, email) VALUES ('Rafael', '2000-02-02', '22222222222', '44888888888', 'rafel@gmail.com');
 INSERT INTO cliente (nome, data_nasc, cpf, telefone, email) VALUES ('Léo', '2000-03-03', '33333333333', '44777777777', 'leo@gmail.com');
